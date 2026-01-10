@@ -1,13 +1,21 @@
 [project]
 name = "sample-mcp"
 version = "0.1.0"
-description = "Add your description here"
+description = "Minimal FastMCP server examples with stdio, HTTP, and SSE transports"
 readme = "README.md"
 authors = [
     { name = "dany14681", email = "dany1468@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastmcp>=2.14.2",
+]
+
+[project.scripts]
+sample-mcp = "sample_mcp.server:main"
+sample-mcp-stdio = "sample_mcp.server_stdio:main"
+sample-mcp-http = "sample_mcp.server_http:main"
+sample-mcp-sse = "sample_mcp.server_sse:main"
 
 [build-system]
 requires = ["uv_build>=0.9.18,<0.10.0"]

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "sample-mcp-http": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "http://127.0.0.1:8000/sse"
+      ]
+    }
+  }
+}

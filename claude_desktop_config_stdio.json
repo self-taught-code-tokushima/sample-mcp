@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "sample-mcp": {
+      "command": "uvx",
+      "args": ["--from", "/path/to/sample-mcp", "sample-mcp-stdio"],
+      "env": {}
+    }
+  }
+}
