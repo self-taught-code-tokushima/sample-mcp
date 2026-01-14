@@ -83,7 +83,7 @@ uv run python -m sample_mcp.server_sse
 ### stdio モード
 
 ```bash
-claude mcp add -s project --transport stdio sample-mcp -- uvx --from "D:\\mcp-tools\\sample-mcp" sample-mcp-stdio
+claude mcp add -s project --transport stdio sample-mcp -- uvx --from "C:\your-path\your-path" sample-mcp-stdio
 ```
 
 プロジェクトルートに `.mcp.json` が作成される。
