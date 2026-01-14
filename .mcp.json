@@ -5,7 +5,7 @@
       "command": "uvx",
       "args": [
         "--from",
-        "D:\\mcp-tools\\sample-mcp",
+        "C:\\your-path\\your-path",
         "sample-mcp-stdio"
       ],
       "env": {}
